@@ -3,7 +3,7 @@ import React from 'react';
 const PrimaryButton = () => {
     return (
         <div>
-            <button className="btn btn-primary bg-gradient-to-r from-secondary to-primary">Get Started</button>
+            <button className="btn bg-[#0FCFEC] bg-gradient-to-r from-[#19D3AE] to-[#0FCFEC] border-none text-[white]">Get Started</button>
         </div>
     );
 };

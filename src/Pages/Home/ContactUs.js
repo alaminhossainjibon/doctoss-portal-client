@@ -8,8 +8,8 @@ const ContactUs = () => {
                 background: `url(${appointment})`
             }}
             className=' text-center'>
-            <h2 className='text-primary text-xl'>Contact Us</h2>
-            <h2 className='text-5xl'>Stay connected with us</h2>
+            <h2 className='text-[#0FCFEC] text-xl'>Contact Us</h2>
+            <h2 className='text-5xl text-white'>Stay connected with us</h2>
             <div className="my-10">
                 <input type="text" name='email' placeholder="email" />
                 <br />
@@ -21,7 +21,7 @@ const ContactUs = () => {
                 <br />
                 <br />
                 <div>
-                    <button className="btn btn-primary bg-gradient-to-r from-secondary to-primary">Submit</button>
+                    <button className="btn bg-[#0FCFEC] bg-gradient-to-r from-[#19D3AE] to-[#0FCFEC] border-none text-[white] mb-6">Submit</button>
                 </div>
             </div>
         </div>
